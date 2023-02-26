@@ -43,7 +43,7 @@ abstract class BaseDialogFragment<VB : ViewBinding>(
     }
 
     open fun initWindowBackground() {
-        dialog?.window?.setBackgroundDrawableResource(R.drawable.alert_dialog_container)
+        dialog?.window?.setBackgroundDrawableResource(com.aold.core_ui.R.drawable.alert_dialog_container)
     }
 
     open fun initDI() {}

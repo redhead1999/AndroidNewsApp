@@ -1,5 +1,6 @@
 package com.aold.runewsapp.navigation
 
+import com.aold.core.core.navigations.GlobalRouter
 import javax.inject.Inject
 import javax.inject.Provider
 
@@ -15,9 +16,11 @@ interface AppNavigationManager {
 
     fun selectSettingsFeature()
 
+
+    //TODO пофиксить после добавления новых модулей
     class Base @Inject constructor(
-        private val newsFeatureStarter: Provider<NewsFeatureStarter>,
-        private val settingsFeatureStarter: Provider<NewsSettingsFeatureStarter>,
+//        private val newsFeatureStarter: Provider<NewsFeatureStarter>,
+//        private val settingsFeatureStarter: Provider<NewsSettingsFeatureStarter>,
         private val globalRouter: GlobalRouter
     ) : AppNavigationManager {
 
@@ -26,11 +29,11 @@ interface AppNavigationManager {
         }
 
         override fun selectNewsFeature() {
-            newsFeatureStarter.get().showFeature()
+            //todo
         }
 
         override fun selectSettingsFeature() {
-            settingsFeatureStarter.get().showFeature()
+            //todo
         }
     }
 }
