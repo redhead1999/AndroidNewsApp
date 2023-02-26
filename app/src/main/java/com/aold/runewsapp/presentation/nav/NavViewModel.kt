@@ -1,4 +1,4 @@
-package com.aold.runewsapp.di.presentation.nav
+package com.aold.runewsapp.presentation.nav
 
 import javax.inject.Inject
 import javax.inject.Provider

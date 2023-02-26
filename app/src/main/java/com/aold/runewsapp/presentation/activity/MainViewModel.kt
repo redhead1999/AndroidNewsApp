@@ -1,4 +1,4 @@
-package com.aold.runewsapp.di.presentation.activity
+package com.aold.runewsapp.presentation.activity
 
 import javax.inject.Inject
 import com.aold.core.managers.CoroutineManager
@@ -13,7 +13,7 @@ import javax.inject.Provider
  */
 
 class MainViewModel @Inject constructor(
-    private val navigationManager: AppNavigationManage,
+    private val navigationManager: AppNavigationManager,
     coroutineManager: CoroutineManager
 ) : BaseViewModel(coroutineManager), Init {
 

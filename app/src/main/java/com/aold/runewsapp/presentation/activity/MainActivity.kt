@@ -1,14 +1,12 @@
-package com.aold.runewsapp.di.presentation.activity
+package com.aold.runewsapp.presentation.activity
 
 import android.os.Bundle
-import com.aold.runewsapp.R
+import com.aold.core.core.navigations.CustomAppNavigator
+import com.aold.core.core.platform.activity.BaseActivity
 import com.github.terrakok.cicerone.NavigatorHolder
-import com.aold.runewsapp.core.navigations.CustomAppNavigator
-import com.aold.runewsapp.core.platform.activity.BaseActivity
 import com.aold.runewsapp.databinding.ActivityMainBinding
 import com.aold.runewsapp.di.annotation.GlobalCiceroneHolder
 import com.aold.runewsapp.R
-import com.aold.runewsapp.application.getApp
 import javax.inject.Inject
 
 /**
@@ -30,7 +28,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(
         CustomAppNavigator(this, R.id.globalContainer)
     }
 
-    override fun setTheme() = setTheme(com.aold.runewsapp.R.style.Theme_App_GlobalNews)
+    override fun setTheme() = setTheme(com.aold.runewsapp.R.style.Theme_RuNewsApp)
 
     override fun initDI() = getApp().fetchAppComponent().inject(this)
 

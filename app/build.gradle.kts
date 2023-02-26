@@ -94,6 +94,7 @@ dependencies {
 
     // Dagger
     implementation(Dependencies.Dagger.library)
+    implementation(project(mapOf("path" to ":core")))
     kapt(Dependencies.Dagger.compiler)
 
     // Room

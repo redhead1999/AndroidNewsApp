@@ -6,8 +6,8 @@ import dagger.Binds
 import dagger.Module
 import com.aold.runewsapp.di.annotation.MainViewModels
 import com.aold.runewsapp.di.annotation.NavViewModels
-import com.aold.runewsapp.di.presentation.activity.MainViewModel
-import com.aold.runewsapp.di.presentation.nav.NavViewModel
+import com.aold.runewsapp.presentation.activity.MainViewModel
+import com.aold.runewsapp.presentation.nav.NavViewModel
 
 /**
  * @author {Kirilin Yury} on 26.02.2023.

@@ -10,7 +10,7 @@ import com.aold.runewsapp.presentation.nav.NavFragment
 import com.aold.news_details_feature_impl.di.NewsDetailsFeatureDependencies
 import com.aold.news_feature_impl.di.NewsFeatureDependencies
 import com.aold.news_settings_feature_impl.di.NewsSettingsFeatureDependencies
-import com.aold.runewsapp.di.presentation.activity.MainActivity
+import com.aold.runewsapp.presentation.activity.MainActivity
 
 /**
  * @author {Kirilin Yury} on 26.02.2023.
