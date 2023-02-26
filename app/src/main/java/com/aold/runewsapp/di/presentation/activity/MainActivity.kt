@@ -1,15 +1,14 @@
-package com.aold.runewsapp
+package com.aold.runewsapp.di.presentation.activity
 
 import android.os.Bundle
+import com.aold.runewsapp.R
 import com.github.terrakok.cicerone.NavigatorHolder
 import com.aold.runewsapp.core.navigations.CustomAppNavigator
 import com.aold.runewsapp.core.platform.activity.BaseActivity
 import com.aold.runewsapp.databinding.ActivityMainBinding
 import com.aold.runewsapp.di.annotation.GlobalCiceroneHolder
-import com.aold.runewsapp.globalnews.R
-import com.aold.runewsapp.globalnews.application.getApp
-import com.aold.runewsapp.globalnews.databinding.ActivityMainBinding
-import com.aold.runewsapp.globalnews.di.annotation.GlobalCiceroneHolder
+import com.aold.runewsapp.R
+import com.aold.runewsapp.application.getApp
 import javax.inject.Inject
 
 /**

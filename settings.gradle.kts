@@ -25,7 +25,7 @@ rootProject.name = "RuNewsApp"
 include(":app")
 include(":core")
 include(":core-db")
-//include(":core-ui")
+include(":core-ui")
 include(":module-injector")
 include(":news_feature_api")
 include(":news_feature_impl")

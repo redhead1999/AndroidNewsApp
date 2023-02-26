@@ -10,7 +10,7 @@ import com.aold.runewsapp.globalnews.di.annotation.GlobalCiceroneHolder
 import com.aold.runewsapp.globalnews.di.annotation.NavCiceroneHolder
 
 /**
- * @author Kirilin Yury on
+ * @author Kirilin Yury on 26.02.2023
  */
 
 @Module

@@ -3,22 +3,14 @@ package com.aold.runewsapp.di.component
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
-import com.aold.core.di.AppScope
 import com.aold.runewsapp.di.module.CoreDataModule
-import com.aold.runewsapp.di.module.FeatureDependenciesModule
 import com.aold.runewsapp.di.module.FeatureModule
 import com.aold.runewsapp.di.module.NavigationModule
-import com.aold.runewsapp.di.module.UtilsModule
-import com.aold.runewsapp.di.module.ViewModelModule
-import com.aold.runewsapp.presentation.activity.MainActivity
 import com.aold.runewsapp.presentation.nav.NavFragment
 import com.aold.news_details_feature_impl.di.NewsDetailsFeatureDependencies
 import com.aold.news_feature_impl.di.NewsFeatureDependencies
 import com.aold.news_settings_feature_impl.di.NewsSettingsFeatureDependencies
-import com.aold.runewsapp.MainActivity
-import com.aold.runewsapp.di.module.CoreDataModule
-import com.aold.runewsapp.di.module.FeatureModule
-import com.aold.runewsapp.di.module.NavigationModule
+import com.aold.runewsapp.di.presentation.activity.MainActivity
 
 /**
  * @author {Kirilin Yury} on 26.02.2023.
