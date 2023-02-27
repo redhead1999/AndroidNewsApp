@@ -35,4 +35,4 @@ include(":news_details_feature_impl")
 include(":news_details_feature_api")
 include(":buildsrc")
 
-include(":core-ui")
+

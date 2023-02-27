@@ -2,11 +2,9 @@ package com.aold.runewsapp.di.component
 
 import android.content.Context
 import com.aold.core.core.di.AppScope
+import com.aold.runewsapp.di.module.*
 import dagger.BindsInstance
 import dagger.Component
-import com.aold.runewsapp.di.module.CoreDataModule
-import com.aold.runewsapp.di.module.FeatureModule
-import com.aold.runewsapp.di.module.NavigationModule
 import com.aold.runewsapp.presentation.nav.NavFragment
 import com.aold.runewsapp.presentation.activity.MainActivity
 
@@ -33,7 +31,7 @@ interface AppComponent : AppComponentDependencies {
     fun inject(activity: NavFragment)
 
     @Component.Builder
-    interface Bulder {
+    interface Builder {
         @BindsInstance
         fun applicationContext(context: Context): Builder
         fun coreDataModule(module: CoreDataModule): Builder
@@ -43,15 +41,16 @@ interface AppComponent : AppComponentDependencies {
     }
 
     companion object {
-        fun create(context: Context) = DaggerComponent.builder()
+        fun create(context: Context) = DaggerAppComponent.builder()
             .applicationContext(context)
             .coreDataModule(CoreDataModule())
             .navigationModule(NavigationModule())
             .featureModule(FeatureModule())
             .build()
     }
+}
 
-    interface AppComponentDependencies :
-        NewsFeatureDependencies,
-        NewsDetailsFeatureDependencies,
-        NewsSettingsFeatureDependencies
+//interface AppComponentDependencies :
+//    NewsFeatureDependencies,
+//    NewsDetailsFeatureDependencies,
+//    NewsSettingsFeatureDependencies
