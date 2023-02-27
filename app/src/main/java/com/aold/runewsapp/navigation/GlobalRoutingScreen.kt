@@ -5,8 +5,9 @@ import com.github.terrakok.cicerone.androidx.FragmentScreen
 
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author {Kirilin Yury} on 26.02.2023.
  */
+
 object GlobalRoutingScreen {
 
     fun fetchNavScreen() = FragmentScreen(NavigationKeys.NAV_FRAGMENT) {
