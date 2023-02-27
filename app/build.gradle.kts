@@ -69,7 +69,7 @@ android {
 dependencies {
 
     // Modules
-    implementation(project(":module-injector"))
+    //implementation(project(":module-injector"))
 
 
     implementation(project(":core-db"))
