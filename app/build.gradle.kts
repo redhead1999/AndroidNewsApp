@@ -75,7 +75,7 @@ dependencies {
     implementation(project(":core-db"))
     implementation(project(":core-ui"))
 
-    implementation(project(":news_feature_impl"))
+        implementation(project(":news_feature_impl"))
     implementation(project(":news_feature_api"))
 
     implementation(project(":news_details_feature_api"))
