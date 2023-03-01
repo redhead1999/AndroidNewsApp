@@ -1,6 +1,7 @@
 package com.aold.news_feature_impl.domain.repositories
 
 import androidx.paging.PagingData
+import com.aold.news_feature_impl.domain.entities.NewsEntity
 import kotlinx.coroutines.flow.Flow
 
 /**
