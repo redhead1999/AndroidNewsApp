@@ -30,10 +30,12 @@ include(":module-injector")
 include(":news_feature_api")
 include(":news_feature_impl")
 include(":news_settings_feature_api")
-include(":news_settings_feature_impl")
 include(":news_details_feature_impl")
 include(":news_details_feature_api")
+include(":news_settings_feature_impl")
 include(":buildsrc")
+
+
 
 
 
