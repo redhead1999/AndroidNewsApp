@@ -10,6 +10,8 @@ import dagger.Module
 @Module
 internal interface DomainModule {
 
+
+
     @Binds
     @FeatureScope
     fun provideSettingsInteractor(interactor: SettingsInteractor.Base): SettingsInteractor
