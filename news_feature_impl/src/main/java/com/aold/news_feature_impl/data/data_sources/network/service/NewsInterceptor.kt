@@ -7,7 +7,6 @@ import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.Protocol
 import okhttp3.Response
 import okhttp3.ResponseBody.Companion.toResponseBody
-import com.aold.news_feature_impl.BuildConfig
 
 /**
  * @author Kirilin Yury on 13.03.2023.

@@ -1,4 +1,4 @@
-package com.aold.news_feature_impl.module
+package com.aold.news_feature_impl.di.module
 
 import android.content.Context
 import androidx.paging.PagingConfig

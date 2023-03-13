@@ -9,6 +9,7 @@ import javax.inject.Inject
 /**
  * @author {Kirilin Yury} on 03.03.2023.
  */
+
 internal class DetailsRepositoryImpl @Inject constructor(
     private val localDataSource: NewsDetailsLocalDataSource,
     private val mapperToData: NewsDetailsDomainToMapper
