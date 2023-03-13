@@ -35,6 +35,8 @@ android {
         val globalNewsApiKey = gradleLocalProperties(rootDir).getProperty("global_news_api_key")
         val globalNewsBaseUrl = gradleLocalProperties(rootDir).getProperty("global_news_base_url")
 
+
+
         it.buildConfigField("String", "GNEWS_API_KEY", globalNewsApiKey)
         it.buildConfigField("String", "GNEWS_BASE_URL", globalNewsBaseUrl)
     }
@@ -79,7 +81,6 @@ dependencies {
 
     // Dagger
     implementation(Dependencies.Dagger.library)
-    implementation(project(mapOf("path" to ":app")))
     kapt(Dependencies.Dagger.compiler)
 
     // Paging 3

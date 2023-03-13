@@ -3,6 +3,8 @@ package com.aold.news_feature_impl.data.data_sources.network
 import com.aold.core.core.functional.ResponseResult
 import com.aold.core.core.handlers.ResponseHandler
 import com.aold.news_feature_impl.data.data_sources.network.service.NewsRequest
+import com.aold.news_feature_impl.data.data_sources.network.service.NewsService
+import com.aold.news_feature_impl.data.mappers.NewsResponseToModelMapper
 import com.aold.news_feature_impl.data.models.NewsModel
 import com.aold.news_feature_impl.data.models.NewsResponse
 import javax.inject.Inject
