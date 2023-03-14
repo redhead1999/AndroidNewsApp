@@ -8,8 +8,9 @@ import com.aold.news_feature_impl.domain.repositories.DetailsRepository
 import javax.inject.Inject
 
 /**
- * @author Stanislav Aleshin on 15.10.2022.
+ * @author Kirilin Yury on 10.03.2023.
  */
+
 internal interface DetailsInteractor {
 
     suspend fun saveNews(news: NewsEntity): EitherLeft<NewsFailures>

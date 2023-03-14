@@ -11,8 +11,9 @@ import com.aold.news_feature_impl.databinding.LoadingNewsItemBinding
 import javax.inject.Inject
 
 /**
- * @author Stanislav Aleshin on 16.10.2022.
+ * @author Kirilin Yury on 10.03.2023.
  */
+
 internal class NewsLoadStateAdapter @Inject constructor() :
     LoadStateAdapter<BaseViewHolder<LoadState>>() {
 

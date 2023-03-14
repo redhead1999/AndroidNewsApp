@@ -6,8 +6,9 @@ import com.aold.core_db.settings.SettingsLocalDataSource
 import com.aold.module_injector.BaseFeatureDependencies
 
 /**
- * @author Stanislav Aleshin on 24.10.2022.
+ * @author Kirilin Yury on 10.03.2023.
  */
+
 interface NewsSettingsFeatureDependencies : BaseFeatureDependencies {
     val applicationContext: Context
     val navRouter: BottomNavRouter

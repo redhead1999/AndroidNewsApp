@@ -9,8 +9,9 @@ import com.aold.news_feature_impl.databinding.NewsItemBinding
 import com.aold.news_feature_impl.presentation.models.NewsUi
 
 /**
- * @author Stanislav Aleshin on 15.10.2022.
+ * @author Kirilin Yury on 10.03.2023.
  */
+
 internal class NewsViewHolder(
     private val viewBinding: NewsItemBinding
 ) : BaseViewHolder<NewsUi>(viewBinding) {
