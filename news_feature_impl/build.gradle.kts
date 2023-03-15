@@ -35,9 +35,7 @@ android {
         val globalNewsApiKey = gradleLocalProperties(rootDir).getProperty("global_news_api_key")
         val globalNewsBaseUrl = gradleLocalProperties(rootDir).getProperty("global_news_base_url")
 
-
-
-        it.buildConfigField("String", "GNEWS_API_KEY", globalNewsApiKey)
+        it.buildConfigField("String", "АВАВА", globalNewsApiKey)
         it.buildConfigField("String", "GNEWS_BASE_URL", globalNewsBaseUrl)
     }
 

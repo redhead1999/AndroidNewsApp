@@ -13,7 +13,7 @@ import com.aold.module_injector.BaseFeatureDependencies
 interface NewsFeatureDependencies : BaseFeatureDependencies {
     val applicationContext: Context
     val navRouter: BottomNavRouter
-    //val detailsFeatureStarter: NewsDetailsFeatureStarter
+    val detailsFeatureStarter: NewsDetailsFeatureStarter
     val settingsLocalDataSource: SettingsLocalDataSource
     val detailsLocalDataSource: NewsDetailsLocalDataSource
 }

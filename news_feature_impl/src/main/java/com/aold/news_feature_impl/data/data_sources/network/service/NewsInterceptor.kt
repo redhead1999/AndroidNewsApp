@@ -11,6 +11,7 @@ import okhttp3.ResponseBody.Companion.toResponseBody
 /**
  * @author Kirilin Yury on 13.03.2023.
  */
+
 internal interface NewsInterceptor : Interceptor {
 
     class Base : NewsInterceptor {

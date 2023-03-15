@@ -2,6 +2,8 @@ package com.aold.news_feature_impl.di.component
 
 import com.aold.core.core.di.FeatureScope
 import com.aold.news_feature_api.NewsFeatureApi
+import com.aold.news_feature_impl.di.NewsFeatureDependencies
+import com.aold.news_feature_impl.di.module.NetworkModule
 import dagger.Component
 
 /**
