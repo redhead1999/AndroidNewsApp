@@ -5,6 +5,7 @@ import com.aold.core.core.navigations.BottomNavRouter
 import com.aold.core_db.details.NewsDetailsLocalDataSource
 import com.aold.core_db.settings.SettingsLocalDataSource
 import com.aold.module_injector.BaseFeatureDependencies
+import com.aold.news_details_feature_api.NewsDetailsFeatureStarter
 
 /**
  * @author {Kirilin Yury} on 28.02.2023.

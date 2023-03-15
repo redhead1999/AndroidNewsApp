@@ -4,7 +4,7 @@ import android.os.Bundle
 import com.aold.core.core.navigations.CustomAppNavigator
 import com.aold.core.core.platform.fragments.BaseFragmentWithViewModel
 import com.aold.runewsapp.R
-import com.aold.runewsapp.databinding.ActivityMainBinding.inflate
+import com.aold.runewsapp.databinding.BottomNavFragmentBinding
 import com.aold.runewsapp.di.annotation.NavCiceroneHolder
 import com.github.terrakok.cicerone.NavigatorHolder
 import javax.inject.Inject
@@ -13,10 +13,9 @@ import javax.inject.Inject
  * @author {Kirilin Yury} on 26.02.2023.
  */
 
-class NavFragment : BaseFragmentWithViewModel<BottomNavFragment, NavViewModel>(
+class NavFragment : BaseFragmentWithViewModel<BottomNavFragmentBinding, NavViewModel>(
     BottomNavFragmentBinding::inflate
 ) {
-
 
     @Inject
     lateinit var factory: NavViewModel.Factory

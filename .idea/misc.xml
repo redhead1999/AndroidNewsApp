@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RuNewsApp/news_details_feature_impl/src/main/res/drawable/ic_share.xml" value="0.1" />
+        <entry key="..\:/RuNewsApp/news_details_feature_impl/src/main/res/layout/news_details_fragment.xml" value="0.1" />
+        <entry key="..\:/RuNewsApp/news_details_feature_impl/src/main/res/menu/toolbar_items.xml" value="0.1390625" />
         <entry key="..\:/Users/YURY/Desktop/RuNewsApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/YURY/Desktop/RuNewsApp/app/src/main/res/drawable/splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/YURY/Desktop/RuNewsApp/app/src/main/res/layout/activity_main.xml" value="0.1082427536231884" />

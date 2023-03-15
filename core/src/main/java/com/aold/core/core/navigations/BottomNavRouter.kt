@@ -7,7 +7,7 @@ import com.github.terrakok.cicerone.androidx.FragmentScreen
  */
 
 class BottomNavRouter : GlobalRouter() {
-    fun selectedBottomTabScreen(screen: FragmentScreen) {
+    fun selectBottomTabScreen(screen: FragmentScreen) {
         executeCommands(ChangeTabFragment(screen))
     }
 }

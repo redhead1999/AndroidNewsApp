@@ -1,5 +1,6 @@
 package com.aold.news_feature_impl.navigation
 
+import com.aold.news_details_feature_api.NewsDetailsFeatureStarter
 import javax.inject.Inject
 
 /**
