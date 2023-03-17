@@ -1,9 +1,14 @@
 import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
 
+val kotlin_version: String by extra
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
+}
+apply {
+    plugin("kotlin-android")
 }
 
 repositories {
@@ -101,4 +106,6 @@ dependencies {
     androidTestImplementation(Dependencies.Test.jUnitExt)
     androidTestImplementation(Dependencies.Test.coroutinesTest)
     androidTestImplementation(Dependencies.Test.turbine)
+    implementation("androidx.core:core-ktx:+")
+    implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }

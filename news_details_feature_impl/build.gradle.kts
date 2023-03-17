@@ -1,10 +1,15 @@
 import Config.consumerProguardFiles
 import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
 
+val kotlin_version: String by extra
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
+}
+apply {
+    plugin("kotlin-android")
 }
 
 repositories {
@@ -80,4 +85,6 @@ dependencies {
     androidTestImplementation(Dependencies.Test.coroutinesTest)
     androidTestImplementation(Dependencies.Test.fragmentTest)
     androidTestImplementation(Dependencies.Test.espresso)
+    implementation("androidx.core:core-ktx:+")
+    implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }

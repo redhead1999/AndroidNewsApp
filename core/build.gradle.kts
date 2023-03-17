@@ -1,7 +1,11 @@
+val kotlin_version: String by extra
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
+}
+apply {
+    plugin("kotlin-android")
 }
 
 repositories {
@@ -80,4 +84,6 @@ dependencies {
     androidTestImplementation(Dependencies.Test.espresso)
     androidTestImplementation(Dependencies.Test.jUnitExt)
     androidTestImplementation(Dependencies.Test.coroutinesTest)
+    implementation("androidx.core:core-ktx:+")
+    implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }

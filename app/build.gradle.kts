@@ -1,11 +1,16 @@
 import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
 
+val kotlin_version: String by extra
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
     id("com.google.firebase.crashlytics")
     id("com.google.gms.google-services")
+}
+apply {
+    plugin("kotlin-android")
 }
 
 repositories {
@@ -113,5 +118,7 @@ dependencies {
 
     // Leakcanary
     debugImplementation(Dependencies.Leakcanary.library)
+    implementation("androidx.core:core-ktx:+")
+    //implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }
 
