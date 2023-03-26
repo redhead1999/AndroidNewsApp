@@ -1,14 +1,9 @@
 import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
 
-val kotlin_version: String by extra
-
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
-}
-apply {
-    plugin("kotlin-android")
 }
 
 repositories {
@@ -37,11 +32,18 @@ android {
     }
 
     buildTypes.forEach {
+
+        //TODO test
+
+
+
         val globalNewsApiKey = gradleLocalProperties(rootDir).getProperty("global_news_api_key")
         val globalNewsBaseUrl = gradleLocalProperties(rootDir).getProperty("global_news_base_url")
 
-        it.buildConfigField("String", "АВАВА", globalNewsApiKey)
-        it.buildConfigField("String", "GNEWS_BASE_URL", globalNewsBaseUrl)
+        //todo пофиксить
+
+//        it.buildConfigField("String", "GNEWS_API_KEY", globalNewsApiKey)
+//        it.buildConfigField("String", "GNEWS_BASE_URL", globalNewsBaseUrl)
     }
 
     compileOptions {
@@ -106,6 +108,4 @@ dependencies {
     androidTestImplementation(Dependencies.Test.jUnitExt)
     androidTestImplementation(Dependencies.Test.coroutinesTest)
     androidTestImplementation(Dependencies.Test.turbine)
-    implementation("androidx.core:core-ktx:+")
-    //implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }

@@ -3,10 +3,10 @@ package com.aold.runewsapp.di.component
 import android.content.Context
 import com.aold.core.core.di.AppScope
 import com.aold.runewsapp.di.module.*
+import com.aold.runewsapp.presentation.activity.MainActivity
+import com.aold.runewsapp.presentation.nav.NavFragment
 import dagger.BindsInstance
 import dagger.Component
-import com.aold.runewsapp.presentation.nav.NavFragment
-import com.aold.runewsapp.presentation.activity.MainActivity
 
 /**
  * @author Kirilin Yury on 26.02.2023.

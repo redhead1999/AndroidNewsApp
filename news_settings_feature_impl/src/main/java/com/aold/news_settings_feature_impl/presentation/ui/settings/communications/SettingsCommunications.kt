@@ -3,8 +3,8 @@ package com.aold.news_settings_feature_impl.presentation.ui.settings.communicati
 import androidx.lifecycle.LifecycleOwner
 import com.aold.core.core.platform.communication.Communicator
 import com.aold.news_settings_feature_impl.presentation.models.SettingsUi
-import kotlinx.coroutines.flow.FlowCollector
 import com.aold.news_settings_feature_impl.presentation.ui.settings.common.SettingsState
+import kotlinx.coroutines.flow.FlowCollector
 import javax.inject.Inject
 
 /**

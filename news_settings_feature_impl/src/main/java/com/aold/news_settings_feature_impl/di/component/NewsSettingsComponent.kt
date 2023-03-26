@@ -3,7 +3,15 @@ package com.aold.news_settings_feature_impl.di.component
 import com.aold.core.core.di.FeatureScope
 import com.aold.news_settings_feature_api.di.NewsSettingsFeatureApi
 import com.aold.news_settings_feature_api.di.NewsSettingsFeatureStarter
-import com.aold.news_settings_feature_impl.di.modules.NewsSettingsFeatureDependencies
+import com.aold.news_settings_feature_impl.di.modules.*
+import com.aold.news_settings_feature_impl.di.modules.DataModule
+import com.aold.news_settings_feature_impl.di.modules.DomainModule
+import com.aold.news_settings_feature_impl.di.modules.UtilsModule
+import com.aold.news_settings_feature_impl.di.modules.ViewModelModule
+import com.aold.news_settings_feature_impl.presentation.ui.categories.CategoriesDialogFragment
+import com.aold.news_settings_feature_impl.presentation.ui.countries.CountriesDialogFragment
+import com.aold.news_settings_feature_impl.presentation.ui.languages.LanguagesDialogFragment
+import com.aold.news_settings_feature_impl.presentation.ui.settings.SettingsFragment
 import dagger.Component
 
 /**
@@ -44,7 +52,7 @@ internal interface NewsSettingsComponent : NewsSettingsFeatureApi {
 
     companion object {
         fun create(dependencies: NewsSettingsFeatureDependencies): NewsSettingsComponent {
-            return DaggerNewsSettingsComponnent.builder()
+            return DaggerNewsSettingsComponent.builder()
                 .featureDependencies(dependencies)
                 .utilsModule(UtilsModule())
                 .build()

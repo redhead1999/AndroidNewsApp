@@ -1,6 +1,11 @@
 package com.aold.news_settings_feature_impl.di.modules
 
 import com.aold.core.core.di.FeatureScope
+import com.aold.news_settings_feature_impl.domain.common.SettingsEitherWrapper
+import com.aold.news_settings_feature_impl.domain.common.SettingsErrorHandler
+import com.aold.news_settings_feature_impl.domain.interactor.SettingsInteractor
+import com.aold.news_settings_feature_impl.presentation.mappers.SettingsDomainToUiMapper
+import com.aold.news_settings_feature_impl.presentation.mappers.SettingsUiToDomainMapper
 import dagger.Binds
 import dagger.Module
 
@@ -8,17 +13,12 @@ import dagger.Module
  * @author Kirilin Yury on 03.03.2023.
  */
 @Module
-internal interface DomainModule {
 
-
-
-    @Binds
-    @FeatureScope
-    fun provideSettingsInteractor(interactor: SettingsInteractor.Base): SettingsInteractor
+internal interface PresentationModule {
 
     @Binds
-    fun provideSettingsEitherWrapper(wrapper: SettingsEitherWrapper.Base): SettingsEitherWrapper
+    fun provideSettingsUiToDomainMapper(mapper: SettingsUiToDomainMapper.Base): SettingsUiToDomainMapper
 
     @Binds
-    fun provideSettingsErrorHandler(handler: SettingsErrorHandler.Base): SettingsErrorHandler
+    fun provideSettingsDomainToUiMapper(mapper: SettingsDomainToUiMapper.Base): SettingsDomainToUiMapper
 }

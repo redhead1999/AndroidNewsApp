@@ -11,11 +11,11 @@ import com.aold.news_settings_feature_api.domain.Languages
 import com.aold.news_settings_feature_impl.domain.interactor.SettingsInteractor
 import com.aold.news_settings_feature_impl.navigation.SettingsNavigationManager
 import com.aold.news_settings_feature_impl.presentation.models.SettingsUi
-import kotlinx.coroutines.flow.FlowCollector
 import com.aold.news_settings_feature_impl.presentation.ui.settings.common.SettingsRequestHandler
 import com.aold.news_settings_feature_impl.presentation.ui.settings.common.SettingsState
 import com.aold.news_settings_feature_impl.presentation.ui.settings.communications.SettingsCommunications
 import com.aold.news_settings_feature_impl.presentation.ui.settings.communications.SettingsCommunicationsCollect
+import kotlinx.coroutines.flow.FlowCollector
 import javax.inject.Inject
 import javax.inject.Provider
 

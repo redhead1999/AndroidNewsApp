@@ -1,10 +1,10 @@
 package com.aold.runewsapp.presentation.activity
 
-import javax.inject.Inject
 import com.aold.core.managers.CoroutineManager
 import com.aold.core.platform.viewmodel.BaseViewModel
 import com.aold.core.platform.viewmodel.Init
 import com.aold.runewsapp.navigation.AppNavigationManager
+import javax.inject.Inject
 import javax.inject.Provider
 
 

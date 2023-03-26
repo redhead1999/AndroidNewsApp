@@ -6,6 +6,7 @@ import com.aold.news_feature_impl.data.data_sources.network.NewsPagingDataSource
 import com.aold.news_feature_impl.data.data_sources.network.NewsRemoteDataSource
 import com.aold.news_feature_impl.data.data_sources.network.paging.PagingParamsHandler
 import com.aold.news_feature_impl.data.mappers.NewsDataToDomainMapper
+import com.aold.news_feature_impl.data.mappers.NewsDetailsDomainToDataMapper
 import com.aold.news_feature_impl.data.mappers.NewsResponseToModelMapper
 import com.aold.news_feature_impl.data.mappers.ResponseResultMapper
 import com.aold.news_feature_impl.data.models.NewsModel

@@ -1,13 +1,13 @@
 package com.aold.runewsapp.di.module
 
-import com.github.terrakok.cicerone.Cicerone
-import dagger.Module
-import dagger.Provides
 import com.aold.runewsapp.core.di.AppScope
 import com.aold.runewsapp.core.navigations.BottomNavRouter
 import com.aold.runewsapp.core.navigations.GlobalRouter
 import com.aold.runewsapp.globalnews.di.annotation.GlobalCiceroneHolder
 import com.aold.runewsapp.globalnews.di.annotation.NavCiceroneHolder
+import com.github.terrakok.cicerone.Cicerone
+import dagger.Module
+import dagger.Provides
 
 /**
  * @author Kirilin Yury on 26.02.2023

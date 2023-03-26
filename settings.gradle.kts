@@ -41,3 +41,5 @@ include(":buildsrc")
 
 
 include(":news_details_feature_impl")
+include(":news_favorites_feature_api")
+include(":news_favorites_feature_impl")

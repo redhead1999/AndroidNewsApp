@@ -3,10 +3,10 @@ package com.aold.runewsapp.presentation.activity
 import android.os.Bundle
 import com.aold.core.core.navigations.CustomAppNavigator
 import com.aold.core.core.platform.activity.BaseActivity
-import com.github.terrakok.cicerone.NavigatorHolder
+import com.aold.runewsapp.R
 import com.aold.runewsapp.databinding.ActivityMainBinding
 import com.aold.runewsapp.di.annotation.GlobalCiceroneHolder
-import com.aold.runewsapp.R
+import com.github.terrakok.cicerone.NavigatorHolder
 import javax.inject.Inject
 
 /**

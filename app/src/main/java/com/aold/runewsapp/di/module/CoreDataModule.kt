@@ -2,13 +2,9 @@ package com.aold.runewsapp.di.module
 
 import android.content.Context
 import androidx.room.Room
+import com.aold.core.di.AppScope
 import dagger.Module
 import dagger.Provides
-import com.aold.core.di.AppScope
-import com.aold.core_db.details.NewsDetailsLocalDataSource
-import com.aold.core_db.settings.SettingsDao
-import com.aold.core_db.settings.SettingsDataBase
-import com.aold.core_db.settings.SettingsLocalDataSource
 
 /**
  * @author Kirilin Yury on 26.02.2023.

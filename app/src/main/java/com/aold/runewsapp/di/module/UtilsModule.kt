@@ -1,9 +1,9 @@
 package com.aold.runewsapp.di.module
 
-import dagger.Binds
-import dagger.Module
 import com.aold.runewsapp.core.managers.CoroutineManager
 import com.aold.runewsapp.navigation.AppNavigationManager
+import dagger.Binds
+import dagger.Module
 
 /**
  * @author Kirilin Yury on 26.02.2023.

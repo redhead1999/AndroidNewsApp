@@ -6,7 +6,6 @@ import com.aold.news_feature_impl.R
 import com.aold.news_feature_impl.databinding.NewsFragmentBinding
 import com.aold.news_feature_impl.domain.entities.NewsFailures
 import com.aold.news_settings_feature_api.domain.Categories
-import java.util.*
 
 /**
  * @author Kirilin Yury on 03.03.2023.

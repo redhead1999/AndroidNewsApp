@@ -2,7 +2,6 @@ package com.aold.runewsapp.navigation
 
 import com.aold.core.core.navigations.GlobalRouter
 import javax.inject.Inject
-import javax.inject.Provider
 
 /**
  * @author Kirilin Yury on 26.02.2023.

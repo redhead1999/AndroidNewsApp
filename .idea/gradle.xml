@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/module-injector" />
             <option value="$PROJECT_DIR$/news_details_feature_api" />
             <option value="$PROJECT_DIR$/news_details_feature_impl" />
+            <option value="$PROJECT_DIR$/news_favorites_feature_api" />
+            <option value="$PROJECT_DIR$/news_favorites_feature_impl" />
             <option value="$PROJECT_DIR$/news_feature_api" />
             <option value="$PROJECT_DIR$/news_feature_impl" />
             <option value="$PROJECT_DIR$/news_settings_feature_api" />

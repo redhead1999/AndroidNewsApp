@@ -1,5 +1,8 @@
 package com.aold.runewsapp.presentation.nav
 
+import com.aold.core.core.managers.CoroutineManager
+import com.aold.core.core.platform.viewmodel.BaseViewModel
+import com.aold.runewsapp.navigation.AppNavigationManager
 import javax.inject.Inject
 import javax.inject.Provider
 

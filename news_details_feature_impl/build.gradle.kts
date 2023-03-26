@@ -1,6 +1,3 @@
-import Config.consumerProguardFiles
-import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
-
 val kotlin_version: String by extra
 
 plugins {
