@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 internal class NewsRepositoryImpl @Inject constructor(

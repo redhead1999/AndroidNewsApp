@@ -5,6 +5,8 @@ import com.aold.core.core.navigations.BottomNavRouter
 import com.aold.news_settings_feature_api.data.SettingsDataToDomainMapper
 import com.aold.news_settings_feature_api.data.SettingsDomainToDataMapper
 import com.aold.news_settings_feature_api.di.NewsSettingsFeatureStarter
+import com.aold.news_settings_feature_impl.navigation.SettingsFeatureStarterImpl
+import com.aold.news_settings_feature_impl.navigation.SettingsNavigationManager
 import dagger.Module
 import dagger.Provides
 

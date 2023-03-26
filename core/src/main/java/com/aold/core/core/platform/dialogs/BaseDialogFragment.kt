@@ -6,11 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.viewbinding.ViewBinding
-import com.aold.core.R
 import com.google.android.material.transition.MaterialFadeThrough
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 abstract class BaseDialogFragment<VB : ViewBinding>(

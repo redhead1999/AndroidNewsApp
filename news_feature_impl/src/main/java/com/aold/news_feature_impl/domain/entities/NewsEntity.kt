@@ -3,7 +3,7 @@ package com.aold.news_feature_impl.domain.entities
 import com.aold.core.core.common.Mapper
 
 /**
- * @author {Kirilin Yury} on 01.03.2023.
+ * @author Kirilin Yury on 01.03.2023.
  */
 internal data class NewsEntity(
     val title: String,

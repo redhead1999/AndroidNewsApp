@@ -8,7 +8,7 @@ import com.aold.news_settings_feature_api.domain.convertToCountry
 import com.aold.news_settings_feature_api.domain.convertToLanguage
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 interface SettingsDataToDomainMapper : Mapper<SettingsModel, SettingsEntity> {

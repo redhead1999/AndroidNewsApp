@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 internal interface NewsInteractor {

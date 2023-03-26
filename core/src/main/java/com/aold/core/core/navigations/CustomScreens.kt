@@ -7,7 +7,7 @@ import com.github.terrakok.cicerone.androidx.Creator
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 interface BottomSheetFragmentScreen : Screen {

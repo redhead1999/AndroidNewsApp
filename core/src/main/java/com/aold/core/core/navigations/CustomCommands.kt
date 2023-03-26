@@ -5,7 +5,7 @@ import com.github.terrakok.cicerone.Command
 import com.github.terrakok.cicerone.androidx.FragmentScreen
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 data class ShowDialog(val screen: DialogScreen) : Command

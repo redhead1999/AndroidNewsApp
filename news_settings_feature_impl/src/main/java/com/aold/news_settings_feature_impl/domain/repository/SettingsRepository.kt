@@ -3,7 +3,7 @@ package com.aold.news_settings_feature_impl.domain.repository
 import com.aold.news_settings_feature_api.domain.SettingsEntity
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 internal interface SettingsRepository {

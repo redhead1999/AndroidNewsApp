@@ -7,7 +7,7 @@ import com.aold.news_settings_feature_api.domain.SettingsEntity
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 internal class SettingsRepositoryImpl @Inject constructor(

@@ -3,7 +3,7 @@ package com.aold.news_settings_feature_api.domain
 import com.aold.core.core.common.Mapper
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 data class SettingsEntity(
     val language: Languages,

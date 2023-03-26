@@ -7,7 +7,7 @@ import com.aold.news_settings_feature_impl.di.modules.NewsSettingsFeatureDepende
 import dagger.Component
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 @FeatureScope

@@ -11,8 +11,9 @@ import kotlinx.coroutines.flow.FlowCollector
 import javax.inject.Inject
 
 /**
- * @author Stanislav Aleshin on 08.10.2022.
+ * @author Kirilin Yury on 03.03.2023.
  */
+
 internal interface NewsCommunications : NewsCommunicationsCollect {
 
     fun showState(state: NewsUiState)

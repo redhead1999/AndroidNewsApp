@@ -26,7 +26,7 @@ internal interface NavigationManager {
                 type = "text/plain"
                 putExtra(Intent.EXTRA_TEXT, newsUrl)
             }
-            globalRouter.showIntent(Intent.createChooser(sharingIntent, "Share"))
+            globalRouter.showIntent(Intent.createChooser(sharingIntent, "Поделиться"))
         }
 
         override fun navigateToNewsUrl(newsUrl: String) {

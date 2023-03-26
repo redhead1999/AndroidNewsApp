@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 interface DateManager {

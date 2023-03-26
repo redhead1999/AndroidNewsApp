@@ -10,7 +10,7 @@ import com.github.terrakok.cicerone.NavigatorHolder
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 class NavFragment : BaseFragmentWithViewModel<BottomNavFragmentBinding, NavViewModel>(

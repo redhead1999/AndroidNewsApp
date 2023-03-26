@@ -5,7 +5,7 @@ import com.aold.core_ui.R
 
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 enum class Categories(val data: String, @StringRes val title: Int) {

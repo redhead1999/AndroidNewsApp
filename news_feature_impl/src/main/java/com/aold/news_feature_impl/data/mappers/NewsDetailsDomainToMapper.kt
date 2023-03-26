@@ -6,7 +6,7 @@ import com.aold.news_feature_impl.domain.entities.NewsEntity
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 internal interface NewsDetailsDomainToMapper : Mapper<NewsEntity, NewsDetailsModel> {
 

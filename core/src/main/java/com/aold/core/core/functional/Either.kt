@@ -1,7 +1,7 @@
 package com.aold.core.core.functional
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 sealed class Either<out L, out R> {

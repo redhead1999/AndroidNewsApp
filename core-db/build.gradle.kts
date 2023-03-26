@@ -61,5 +61,5 @@ dependencies {
     androidTestImplementation(Dependencies.Test.espresso)
     androidTestImplementation(Dependencies.Test.jUnitExt)
     implementation("androidx.core:core-ktx:+")
-    implementation(kotlinModule("stdlib-jdk7", kotlin_version))
+    //implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }

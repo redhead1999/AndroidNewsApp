@@ -3,7 +3,7 @@ package com.aold.core.core.handlers
 import com.aold.core.core.functional.Either
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 interface EitherFailureWrapper<L> {

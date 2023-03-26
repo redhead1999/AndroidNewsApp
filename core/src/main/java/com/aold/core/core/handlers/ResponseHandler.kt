@@ -6,7 +6,7 @@ import retrofit2.Response
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 interface ResponseHandler<T> {

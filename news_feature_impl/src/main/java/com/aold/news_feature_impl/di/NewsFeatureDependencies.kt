@@ -8,7 +8,7 @@ import com.aold.module_injector.BaseFeatureDependencies
 import com.aold.news_details_feature_api.NewsDetailsFeatureStarter
 
 /**
- * @author {Kirilin Yury} on 28.02.2023.
+ * @author Kirilin Yury on 28.02.2023.
  */
 
 interface NewsFeatureDependencies : BaseFeatureDependencies {

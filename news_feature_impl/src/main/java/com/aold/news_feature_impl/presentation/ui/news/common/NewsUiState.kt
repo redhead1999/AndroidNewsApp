@@ -9,8 +9,9 @@ import com.aold.news_settings_feature_api.domain.Categories
 import java.util.*
 
 /**
- * @author Stanislav Aleshin on 08.10.2022.
+ * @author Kirilin Yury on 03.03.2023.
  */
+
 internal sealed class NewsUiState {
 
     abstract fun apply(viewBinding: NewsFragmentBinding)

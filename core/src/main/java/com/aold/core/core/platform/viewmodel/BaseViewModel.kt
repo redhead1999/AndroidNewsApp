@@ -8,7 +8,7 @@ import com.aold.core.core.managers.CoroutineManager
 import javax.inject.Provider
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 abstract class BaseViewModel(

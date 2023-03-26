@@ -4,7 +4,7 @@ import javax.inject.Inject
 import javax.inject.Provider
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 class NavViewModel @Inject constructor(

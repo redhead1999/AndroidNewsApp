@@ -10,7 +10,7 @@ import com.aold.news_settings_feature_impl.di.NewsSettingsFeatureDependencies
 import com.aold.news_settings_feature_impl.di.holder.NewsSettingsComponentHolder
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 @Module

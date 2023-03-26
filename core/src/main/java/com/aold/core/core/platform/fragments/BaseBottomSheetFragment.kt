@@ -11,7 +11,7 @@ import androidx.viewbinding.ViewBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 abstract class BaseBottomSheetFragment<VB : ViewBinding, VM : ViewModel>(

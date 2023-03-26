@@ -7,7 +7,7 @@ import com.aold.news_feature_impl.di.module.NetworkModule
 import dagger.Component
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 @FeatureScope

@@ -5,7 +5,7 @@ import com.aold.news_feature_impl.domain.entities.NewsEntity
 import kotlinx.coroutines.flow.Flow
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 internal interface NewsRepository {

@@ -3,7 +3,7 @@ package com.aold.core_db.details
 import com.aold.core.core.common.Mapper
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 data class NewsDetailsModel(

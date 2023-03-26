@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 import com.aold.core.core.common.Mapper
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 @Entity(tableName = "settings")

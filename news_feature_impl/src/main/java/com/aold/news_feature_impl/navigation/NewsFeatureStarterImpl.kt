@@ -5,7 +5,7 @@ import com.aold.news_feature_api.NewsFeatureStarter
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 28.02.2023.
+ * @author Kirilin Yury on 28.02.2023.
  */
 
 internal class NewsFeatureStarterImpl @Inject constructor(

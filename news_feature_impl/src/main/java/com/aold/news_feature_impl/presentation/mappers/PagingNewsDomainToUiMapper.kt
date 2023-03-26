@@ -8,7 +8,7 @@ import com.aold.news_feature_impl.presentation.models.NewsUi
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 02.03.2023.
+ * @author Kirilin Yury on 02.03.2023.
  */
 
 internal interface PagingNewsDomainToUiMapper : Mapper<PagingData<NewsEntity>, PagingData<NewsUi>> {

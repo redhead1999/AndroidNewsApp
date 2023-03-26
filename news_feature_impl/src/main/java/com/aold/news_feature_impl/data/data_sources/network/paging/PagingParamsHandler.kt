@@ -4,7 +4,7 @@ import androidx.paging.PagingSource.LoadParams
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 internal interface PagingParamsHandler {

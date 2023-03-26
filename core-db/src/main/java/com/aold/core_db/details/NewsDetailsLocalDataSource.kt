@@ -3,7 +3,7 @@ package com.aold.core_db.details
 import com.aold.core_db.exceptions.StorageReadException
 
 /**
- * @author {Kirilin Yury} on 01.03.2023.
+ * @author Kirilin Yury on 01.03.2023.
  */
 interface NewsDetailsLocalDataSource {
 

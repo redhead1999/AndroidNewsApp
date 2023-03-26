@@ -3,7 +3,7 @@ package com.aold.news_feature_impl.presentation.models
 import com.aold.core.core.common.Mapper
 
 /**
- * @author {Kirilin Yury} on 02.03.2023.
+ * @author Kirilin Yury on 02.03.2023.
  */
 
 internal data class NewsUi(

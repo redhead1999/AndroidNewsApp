@@ -8,7 +8,7 @@ import com.aold.runewsapp.news_feature_impl.di.NewsFeatureDependencies
 import com.aold.runewsapp.news_settings_feature_impl.di.NewsSettingsFeatureDependencies
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 @Module

@@ -107,5 +107,5 @@ dependencies {
     androidTestImplementation(Dependencies.Test.coroutinesTest)
     androidTestImplementation(Dependencies.Test.turbine)
     implementation("androidx.core:core-ktx:+")
-    implementation(kotlinModule("stdlib-jdk7", kotlin_version))
+    //implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }

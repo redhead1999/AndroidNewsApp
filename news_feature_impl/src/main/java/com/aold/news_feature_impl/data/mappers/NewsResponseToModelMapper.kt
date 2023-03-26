@@ -5,7 +5,7 @@ import com.aold.news_feature_impl.data.models.NewsModel
 import com.aold.news_feature_impl.data.models.NewsResponse
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 internal interface NewsResponseToModelMapper : Mapper<NewsResponse, List<NewsModel>> {

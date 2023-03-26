@@ -9,7 +9,7 @@ import com.aold.runewsapp.presentation.nav.NavFragment
 import com.aold.runewsapp.presentation.activity.MainActivity
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 @AppScope

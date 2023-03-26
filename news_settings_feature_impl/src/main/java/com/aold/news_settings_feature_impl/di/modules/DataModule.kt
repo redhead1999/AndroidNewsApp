@@ -7,7 +7,7 @@ import dagger.Binds
 import dagger.Module
 
 /**
- * @author {Kirilin Yury} on 03.03.2023.
+ * @author Kirilin Yury on 03.03.2023.
  */
 
 @Module

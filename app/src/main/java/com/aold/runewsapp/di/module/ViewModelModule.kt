@@ -10,7 +10,7 @@ import com.aold.runewsapp.presentation.activity.MainViewModel
 import com.aold.runewsapp.presentation.nav.NavViewModel
 
 /**
- * @author {Kirilin Yury} on 26.02.2023.
+ * @author Kirilin Yury on 26.02.2023.
  */
 
 @Module

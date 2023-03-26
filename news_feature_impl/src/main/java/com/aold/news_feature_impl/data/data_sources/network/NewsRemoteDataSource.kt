@@ -10,7 +10,7 @@ import com.aold.news_feature_impl.data.models.NewsResponse
 import javax.inject.Inject
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 internal interface NewsRemoteDataSource {

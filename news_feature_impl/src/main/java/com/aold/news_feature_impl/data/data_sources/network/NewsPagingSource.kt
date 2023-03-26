@@ -11,7 +11,7 @@ import dagger.assisted.AssistedInject
 
 
 /**
- * @author {Kirilin Yury} on 27.02.2023.
+ * @author Kirilin Yury on 27.02.2023.
  */
 
 internal class NewsPagingSource @AssistedInject constructor(

@@ -6,7 +6,7 @@ import com.aold.news_feature_impl.di.NewsFeatureDependencies
 import com.aold.news_feature_impl.di.component.NewsComponent
 
 /**
- * @author {Kirilin Yury} on 28.02.2023.
+ * @author Kirilin Yury on 28.02.2023.
  */
 
 object NewsComponentHolder : ComponentHolder<NewsFeatureApi, NewsFeatureDependencies> {
