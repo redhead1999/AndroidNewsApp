@@ -1,20 +1,21 @@
-package ru.aleshin.news_feature_impl.di.module
+package com.aold.news_feature_impl.di.module
 
 import android.content.Context
+import com.aold.core.core.managers.CoroutineManager
+import com.aold.core.core.managers.DateManager
+import com.aold.core.core.managers.ResourceManager
+import com.aold.core.core.navigations.BottomNavRouter
+import com.aold.news_feature_api.NewsFeatureStarter
+import com.aold.news_feature_impl.navigation.NewsFeatureStarterImpl
+import com.aold.news_settings_feature_api.data.SettingsDataToDomainMapper
+import com.aold.news_settings_feature_api.data.SettingsDomainToDataMapper
 import dagger.Module
 import dagger.Provides
-import ru.aleshin.core.managers.CoroutineManager
-import ru.aleshin.core.managers.DateManager
-import ru.aleshin.core.managers.ResourceManager
-import ru.aleshin.core.navigations.BottomNavRouter
-import ru.aleshin.news_feature_api.NewsFeatureStarter
-import ru.aleshin.news_feature_impl.navigation.NewsFeatureStarterImpl
-import ru.aleshin.news_settings_feature_api.data.SettingsDataToDomainMapper
-import ru.aleshin.news_settings_feature_api.data.SettingsDomainToDataMapper
 
 /**
- * @author Stanislav Aleshin on 08.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
+
 @Module
 internal class UtilsModule {
 

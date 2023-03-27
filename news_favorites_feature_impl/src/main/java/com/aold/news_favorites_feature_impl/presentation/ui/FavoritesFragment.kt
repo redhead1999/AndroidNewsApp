@@ -1,18 +1,17 @@
-package ru.aleshin.news_favorites_feature_impl.presentation.ui
+package com.aold.news_favorites_feature_impl.presentation.ui
 
 import android.os.Bundle
-import ru.aleshin.core.platform.fragments.BaseFragmentWithViewModel
-import ru.aleshin.news_favorites_feature_impl.databinding.FavoritesFragmnetBinding
-import ru.aleshin.news_favorites_feature_impl.di.holder.NewsFavoritesComponentHolder
+import com.aold.core.core.platform.fragments.BaseFragmentWithViewModel
+import com.aold.news_favorites_feature_impl.di.holder.NewsFavoritesComponentHolder
 import javax.inject.Inject
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 internal class FavoritesFragment :
-    BaseFragmentWithViewModel<FavoritesFragmnetBinding, FavoritesViewModel>(
-        FavoritesFragmnetBinding::inflate
+    BaseFragmentWithViewModel<FavoritesFragmentBinding, FavoritesViewModel>(
+        FavoritesFragmentBinding::inflate
     ) {
 
     @Inject

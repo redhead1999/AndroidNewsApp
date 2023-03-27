@@ -1,10 +1,10 @@
-package ru.aleshin.news_favorites_feature_impl.navigation
+package com.aold.news_favorites_feature_impl.navigation
 
 import com.github.terrakok.cicerone.androidx.FragmentScreen
-import ru.aleshin.news_favorites_feature_impl.presentation.ui.FavoritesFragment
+import com.aold.news_favorites_feature_impl.presentation.ui.FavoritesFragment
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 internal object NewsFavoritesRoutingScreen {

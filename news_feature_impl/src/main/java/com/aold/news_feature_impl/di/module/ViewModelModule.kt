@@ -13,8 +13,9 @@ import dagger.Module
 
 
 /**
- * @author Stanislav Aleshin on 22.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
+
 @Module
 internal interface ViewModelModule {
 

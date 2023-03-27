@@ -5,7 +5,7 @@ import com.aold.core_db.exceptions.StorageExceptions
 import javax.inject.Inject
 
 /**
- * @author Stanislav Aleshin on 24.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 internal interface SettingsErrorHandler : ErrorHandler<SettingsFailures> {

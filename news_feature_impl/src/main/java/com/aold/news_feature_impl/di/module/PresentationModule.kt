@@ -1,4 +1,4 @@
-package ru.aleshin.news_feature_impl.di.module
+package com.aold.news_feature_impl.di.module
 
 import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter

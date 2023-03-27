@@ -1,12 +1,12 @@
-package ru.aleshin.news_favorites_feature_impl.presentation.ui
+package com.aold.news_favorites_feature_impl.presentation.ui
 
-import ru.aleshin.core.managers.CoroutineManager
-import ru.aleshin.core.platform.viewmodel.BaseViewModel
+import com.aold.core.core.managers.CoroutineManager
+import com.aold.core.core.platform.viewmodel.BaseViewModel
 import javax.inject.Inject
 import javax.inject.Provider
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 internal class FavoritesViewModel @Inject constructor(

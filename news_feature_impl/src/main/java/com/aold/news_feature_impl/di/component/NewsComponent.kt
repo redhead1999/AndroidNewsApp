@@ -8,8 +8,8 @@ import com.aold.news_feature_impl.di.module.DomainModule
 import com.aold.news_feature_impl.di.module.NetworkModule
 import com.aold.news_feature_impl.presentation.ui.news.NewsFragment
 import dagger.Component
-import ru.aleshin.news_feature_impl.di.module.PresentationModule
-import ru.aleshin.news_feature_impl.di.module.UtilsModule
+import com.aold.news_feature_impl.di.module.PresentationModule
+import com.aold.news_feature_impl.di.module.UtilsModule
 import com.aold.news_feature_impl.di.module.ViewModelModule
 
 /**

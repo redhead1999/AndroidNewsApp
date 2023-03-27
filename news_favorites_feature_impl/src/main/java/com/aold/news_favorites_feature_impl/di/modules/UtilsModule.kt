@@ -1,13 +1,13 @@
-package ru.aleshin.news_favorites_feature_impl.di.modules
+package com.aold.news_favorites_feature_impl.di.modules
 
+import com.aold.core.core.managers.CoroutineManager
+import com.aold.news_favorites_feature_api.NewsFavoritesFeatureStarter
 import dagger.Binds
 import dagger.Module
-import ru.aleshin.core.managers.CoroutineManager
-import ru.aleshin.news_favorites_feature_api.NewsFavoritesFeatureStarter
 import com.aold.news_favorites_feature_impl.navigation.NewsFavoritesFeatureStarterImpl
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 @Module

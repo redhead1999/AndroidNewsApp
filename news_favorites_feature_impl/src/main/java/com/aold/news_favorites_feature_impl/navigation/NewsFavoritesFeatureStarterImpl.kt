@@ -2,7 +2,6 @@ package com.aold.news_favorites_feature_impl.navigation
 
 import com.aold.news_favorites_feature_api.NewsFavoritesFeatureStarter
 import com.github.terrakok.cicerone.Router
-import ru.aleshin.news_favorites_feature_impl.navigation.NewsFavoritesRoutingScreen
 import javax.inject.Inject
 
 /**

@@ -1,12 +1,12 @@
-package ru.aleshin.news_favorites_feature_impl.di.holder
+package com.aold.news_favorites_feature_impl.di.holder
 
-import ru.aleshin.module_injector.ComponentHolder
-import ru.aleshin.news_favorites_feature_api.NewsFavoritesFeatureApi
+import com.aold.module_injector.ComponentHolder
+import com.aold.news_favorites_feature_api.NewsFavoritesFeatureApi
 import com.aold.news_favorites_feature_impl.di.NewsFavoritesFeatureDependencies
-import ru.aleshin.news_favorites_feature_impl.di.component.NewsFavoritesComponent
+import com.aold.news_favorites_feature_impl.di.component.NewsFavoritesComponent
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 object NewsFavoritesComponentHolder :

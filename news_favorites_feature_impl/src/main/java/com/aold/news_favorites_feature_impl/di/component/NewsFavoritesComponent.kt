@@ -1,16 +1,16 @@
-package ru.aleshin.news_favorites_feature_impl.di.component
+package com.aold.news_favorites_feature_impl.di.component
 
+import com.aold.core.core.di.FeatureScope
+import com.aold.news_favorites_feature_api.NewsFavoritesFeatureApi
+import com.aold.news_favorites_feature_api.NewsFavoritesFeatureStarter
 import dagger.Component
-import ru.aleshin.core.di.FeatureScope
-import ru.aleshin.news_favorites_feature_api.NewsFavoritesFeatureApi
-import ru.aleshin.news_favorites_feature_api.NewsFavoritesFeatureStarter
 import com.aold.news_favorites_feature_impl.di.NewsFavoritesFeatureDependencies
-import ru.aleshin.news_favorites_feature_impl.di.modules.UtilsModule
-import ru.aleshin.news_favorites_feature_impl.di.modules.ViewModelModule
-import ru.aleshin.news_favorites_feature_impl.presentation.ui.FavoritesFragment
+import com.aold.news_favorites_feature_impl.di.modules.UtilsModule
+import com.aold.news_favorites_feature_impl.di.modules.ViewModelModule
+import com.aold.news_favorites_feature_impl.presentation.ui.FavoritesFragment
 
 /**
- * @author Stanislav Aleshin on 28.10.2022.
+ * @author Kirilin Yury on 27.03.2023.
  */
 
 @FeatureScope
