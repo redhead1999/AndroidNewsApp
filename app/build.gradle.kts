@@ -25,8 +25,10 @@ android {
         minSdk = Config.minSdk
         targetSdk = Config.targetSdk
 
-        versionCode = Config.versionCode
-        versionName = Config.versionName
+
+        //todo deprecated
+//        versionCode = Config.versionCode
+//        versionName = Config.versionName
 
         testInstrumentationRunner = Config.testInstrumentationRunner
     }
@@ -72,7 +74,7 @@ android {
 dependencies {
 
     // Modules
-    //implementation(project(":module-injector"))
+    implementation(project(":module-injector"))
 
 
     implementation(project(":core-db"))

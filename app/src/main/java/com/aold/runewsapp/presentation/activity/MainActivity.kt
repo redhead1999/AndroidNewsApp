@@ -24,11 +24,11 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(
     @GlobalCiceroneHolder
     lateinit var navigatorHolder: NavigatorHolder
 
-    private val navigator by lazy(LazyThreadSafetyMode.NONE){
+    private val navigator by lazy(LazyThreadSafetyMode.NONE) {
         CustomAppNavigator(this, R.id.globalContainer)
     }
 
-    override fun setTheme() = setTheme(com.aold.runewsapp.R.style.Theme_RuNewsApp)
+    override fun setTheme() = setTheme(com.aold.core_ui.R.style.Theme_App_GlobalNews)
 
     override fun initDI() = getApp().fetchAppComponent().inject(this)
 
@@ -49,6 +49,4 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(
     override fun fetchViewModelClass() = MainViewModel::class.java
 
     override fun fetchViewModelFactory() = factory
-}
-
 }

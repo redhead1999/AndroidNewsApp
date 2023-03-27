@@ -1,8 +1,8 @@
 package com.aold.runewsapp.presentation.activity
 
-import com.aold.core.managers.CoroutineManager
-import com.aold.core.platform.viewmodel.BaseViewModel
-import com.aold.core.platform.viewmodel.Init
+import com.aold.core.core.managers.CoroutineManager
+import com.aold.core.core.platform.viewmodel.BaseViewModel
+import com.aold.core.core.platform.viewmodel.Init
 import com.aold.runewsapp.navigation.AppNavigationManager
 import javax.inject.Inject
 import javax.inject.Provider

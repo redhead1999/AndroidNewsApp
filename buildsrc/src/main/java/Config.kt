@@ -12,8 +12,10 @@ object Config {
     const val minSdk = 23
     const val targetSdk = 32
 
-    const val versionCode = 1
-    const val versionName = "1.1"
+
+    //todo deprecated
+//        versionCode = 1
+//        versionName = "1.1"
 
     const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     const val consumerProguardFiles = "consumer-rules.pro"
